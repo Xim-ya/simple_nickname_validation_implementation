@@ -83,6 +83,15 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.6.7"
+  korean_profanity_filter:
+    dependency: "direct main"
+    description:
+      path: "."
+      ref: HEAD
+      resolved-ref: b8dceb141afea64f2dbff6c1d16134cf705fa4ae
+      url: "https://github.com/Xim-ya/korean_profanity_filter.git"
+    source: git
+    version: "0.0.1"
   lints:
     dependency: transitive
     description:
@@ -186,3 +195,4 @@ packages:
     version: "2.1.4"
 sdks:
   dart: ">=3.0.6 <4.0.0"
+  flutter: ">=1.17.0"
