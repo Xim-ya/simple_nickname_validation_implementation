@@ -1,16 +1,12 @@
-# simple_nickname_validation_implementation
+# 닉네임 유효성 검사 로직 예제
 
-A new Flutter project.
+| Index | Detail                                                                                                                                                                                                                                                                                                                                                     |
+|-------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 구현 기간 | 2023.10.28                                                                                                                                                                                                                                                                                                                                                 |
+| 사이트   | https://korean-profanity-filter-example.netlify.app/                                                                                                                                                                                                                                                                                                       |
+| 설명    | - 정규 표현식을 활용한 닉네임 유효성 검사 로직 <br/>- <a href="https://pub.dev/packages/korean_profanity_filter">korean profanity filter<a/>(욕설·비속어 식별 패키지)를 사용하여 욕설·비속어 필터링 로직                                                                                                                                                                                         <br/> |
+| 구현 기능 | **닉네임 유효성 검사 규칙** <br/> - 닉네임 입력 여부 <br/> - 닉네임 공백 포함 금지  <br/> - 닉네임 최소 및 최대 글자 수 제한 <br/> - 한글, 알파멧, 숫자,  언더스코어(_), 하이픈(-)만 허용 <br/> - 비속어 욕설 금지 <br/> - operation 단어 금지                                                                                                                                                                                 |
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+    
